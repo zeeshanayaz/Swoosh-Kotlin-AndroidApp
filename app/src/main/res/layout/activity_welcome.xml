@@ -70,7 +70,7 @@
         android:layout_marginTop="56dp"
         android:fontFamily="@font/montserrat"
         android:singleLine="false"
-        android:text="Find a team in your city & dominate the league."
+        android:text="Find a team in your city and dominate the league."
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="16sp"

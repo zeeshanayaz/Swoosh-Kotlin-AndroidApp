@@ -4,4 +4,12 @@
     <string name="welcome_sub_heading">ON GOING ALL OUT</string>
     <string name="welcome_description">Find a team in your city and dominate the league.</string>
     <string name="get_started">GET STARTED</string>
+    <string name="welcome_screen_background">Welcome Screen Background</string>
+    <string name="swoosh_logo">Swoosh Logo</string>
+    <string name="next">NEXT</string>
+    <string name="co_ed">Co-Ed</string>
+    <string name="womens">Womens</string>
+    <string name="mens">Mens</string>
+    <string name="desired_league">Desired League</string>
+    <string name="league_activity_background">League Activity Background</string>
 </resources>

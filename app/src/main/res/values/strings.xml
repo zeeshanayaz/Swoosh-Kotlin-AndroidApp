@@ -12,4 +12,9 @@
     <string name="mens">Mens</string>
     <string name="desired_league">Desired League</string>
     <string name="league_activity_background">League Activity Background</string>
+    <string name="background_image">Background Image</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="beginner">Beginner</string>
+    <string name="baller">Baller</string>
+    <string name="finish">FINISH</string>
 </resources>

@@ -7,9 +7,10 @@
     tools:context=".WelcomeActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/welcome_background_Image"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="Welcome Screen Background"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,15 +19,16 @@
         app:srcCompat="@drawable/welcomescreenbg" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/swoosh_Logo"
         android:layout_width="88dp"
         android:layout_height="29dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="Swoosh Logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/welcome_background_Image"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
@@ -37,12 +39,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="68dp"
         android:fontFamily="@font/montserrat"
-        android:text="GO ALL IN"
+        android:text="@string/wellcome_heading"
         android:textColor="@android:color/white"
         android:textSize="46sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/swoosh_Logo" />
 
     <TextView
         android:id="@+id/textView2"
@@ -51,7 +53,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/montserrat"
-        android:text="ON GOING ALL OUT"
+        android:text="@string/welcome_sub_heading"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -70,7 +72,7 @@
         android:layout_marginTop="56dp"
         android:fontFamily="@font/montserrat"
         android:singleLine="false"
-        android:text="Find a team in your city and dominate the league."
+        android:text="@string/welcome_description"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="16sp"
@@ -88,9 +90,9 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
-        android:text="GET STARTED"
+        android:text="@string/get_started"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/welcome_background_Image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
